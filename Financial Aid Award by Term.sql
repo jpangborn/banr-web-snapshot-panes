@@ -18,7 +18,7 @@ left join rpratrm h
   on rprawrd_pidm = h.rpratrm_pidm 
   and rprawrd_aidy_code = h.rpratrm_aidy_code 
   and rprawrd_fund_code = h.rpratrm_fund_code 
-  and h.rpratrm_period = '20' || (to_number(substr(rprawrd_aidy_code, 0, 2)) - 1) || '10' 
+  and h.rpratrm_period = '20' || (to_number(substr(rprawrd_aidy_code, 0, 2)) - 1) || '30' 
 left join rpratrm f 
   on rprawrd_pidm = f.rpratrm_pidm 
   and rprawrd_aidy_code = f.rpratrm_aidy_code 
@@ -53,7 +53,7 @@ left join rpratrm h
   on rprawrd_pidm = h.rpratrm_pidm 
   and rprawrd_aidy_code = h.rpratrm_aidy_code 
   and rprawrd_fund_code = h.rpratrm_fund_code 
-  and h.rpratrm_period = '20' || (to_number(substr(rprawrd_aidy_code, 0, 2)) - 1) || '10' 
+  and h.rpratrm_period = '20' || (to_number(substr(rprawrd_aidy_code, 0, 2)) - 1) || '30' 
 left join rpratrm f 
   on rprawrd_pidm = f.rpratrm_pidm 
   and rprawrd_aidy_code = f.rpratrm_aidy_code 
