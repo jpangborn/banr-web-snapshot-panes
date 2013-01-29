@@ -121,3 +121,8 @@ WHERE rprawrd_aidy_code = :AIDY - 101
 ```
      
 The Aid Year Award pane can be modified to display the previous aid year very easily.
+
+License
+-------
+
+Banner Web Snapshot Panes is licensed under the terms of the MIT license. (c) 2012 Joshua Pangborn
